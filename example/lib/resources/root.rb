@@ -18,12 +18,8 @@ class Root
     end
   end
 
-  embedded do
-
-  end
-
   links do
-    users :resource => Users
+    users :href => Users
   end
 
   def hide_email
